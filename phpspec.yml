@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: ineluctable
+        psr4_prefix: ineluctable
+        src_path: app

@@ -1,0 +1,140 @@
+/* Only demo */
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
+
+.lightBoxGallery {
+  text-align: center;
+}
+
+.lightBoxGallery img {
+  margin: 5px;
+}
+
+.charlist-char, .charlist-action {
+  vertical-align: middle; }
+
+.charlist-char img {
+  width: 48px;
+  height: 48px; }
+
+
+.topmail {
+  color: #666666;
+  font-size: 12px !important;
+  padding-left: 0px !important; }
+
+
+//create the asset list items here
+
+.asset {
+  clear: both;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding: 0}
+
+.assetwithcontents{
+  cursor: pointer;
+}
+
+.assetwithcontents:hover{
+  background: #e7eaec;
+}
+
+.asset.collapsed .asset-content {
+  display: none; }
+
+.asset.collapsed .fa.fa-chevron-up:before {
+  content: "\f078"; }
+
+.asset.collapsed .fa.fa-chevron-down:before {
+  content: "\f077"; }
+
+.asset:after, .asset:before {
+  display: table; }
+
+.asset-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: white;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 14px 15px 7px;
+  min-height: 48px;
+  cursor: pointer }
+
+.asset-content {
+  background-color: white;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0px; }
+
+.asset-footer {
+  color: inherit;
+  border-top: 1px solid #e7eaec;
+  font-size: 90%;
+  background: #ffffff;
+  padding: 10px 15px; }
+
+.asset-list {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0; }
+
+.asset-content {
+  clear: both; }
+
+.asset-heading {
+  background-color: #f3f6fb;
+  border-bottom: none; }
+
+.asset-heading h3 {
+  font-weight: 200;
+  font-size: 24px; }
+
+.asset-title h5 {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 0 7px;
+  padding: 0;
+  text-overflow: ellipsis;
+  float: left; }
+
+.asset-title .label {
+  float: left;
+  margin-left: 4px; }
+
+.asset-tools {
+  display: inline-block;
+  float: right;
+  margin-top: 0;
+  position: relative;
+  padding: 0; }
+
+.asset-tools a {
+  cursor: pointer;
+  margin-left: 5px;
+  color: #c4c4c4; }
+
+.asset-tools a.btn-primary {
+  color: #fff; }
+
+.asset-tools .dropdown-menu > li > a {
+  padding: 4px 10px;
+  font-size: 12px; }
+
+.asset .open > .dropdown-menu {
+  left: auto;
+  right: 0; }
